@@ -1,10 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Recipe from "./Recipe";
-import {Button ,Input, Card, CardImg, CardText, CardBody,
-         CardTitle, CardSubtitle} from "reactstrap"
+import styled from "styled-components";
 
-
+const Input = styled.input`
+width:60%;
+margin: 0 auto;
+border-radius:10px;
+font-size:1.3rem
+`
+const Button = styled.button`
+width: 20%;
+border-radius:10px;
+background:orange;
+font-size:1.3rem
+`
 function App() {
   const APP_ID = "10682a74";
   const APP_KEY = "d0dc35c37583a16ac9f49e7858536672";
@@ -34,8 +44,6 @@ function App() {
   return (
     <div className="App" onSubmit={handleSubmit} >
       <form className="search-form">
-
-
       <div className="input-search">
         <Input style={{
           borderRadius:"20px"
@@ -43,9 +51,7 @@ function App() {
           padding:"20px",
           margin:"2px",
         }} value={search}  onChange={handleChange}/>
-        <Button type="submit" color="primary" style={{
-          borderRadius:"10px 0",
-        }}>
+        <Button type="submit" color="warning">
           search
         </Button>
         </div>

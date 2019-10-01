@@ -1,35 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size:62.5%;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  padding: 20px;
 }
 
 .App {
   min-height: 100vh;
-  padding: 10px;
+  padding: 20px;
   border: 10px soild #fff;
-  width:85%;
   margin: 0 auto;
-  border-radius: 50px
 }
 
-.search-form{
-    display: flex;
-    flex-direction: column;
+.search-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .input-search {
-    width: 40%;
-    display: flex;
-    margin: 0 auto;
-    padding-top: 30px; 
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 .recipes {
-    width:90%;
-    display:flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top:30px;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
 }
