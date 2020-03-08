@@ -4,7 +4,7 @@ import { CardSubtitle } from "reactstrap";
 import styled from "styled-components";
 
 const CardStyle = styled.div`
-  width: 45%;
+  width: 40%;
   margin: 2% 0;
   border-radius: 20px;
   box-shadow: 2px 2px blur;

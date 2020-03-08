@@ -10,18 +10,23 @@ body {
 .App {
   min-height: 100vh;
   padding: 20px;
-  border: 10px soild #fff;
+  border: 10px solid #fff;
   margin: 0 auto;
+  text-align: center
 }
 
 .search-form {
   display: flex;
   flex-direction: column;
+  justify-content:center ;
+  align-content: center;
 }
 
 .input-search {
   width: 80%;
   display: flex;
+  justify-content:center ;
+  align-content: center;
   margin: 0 auto;
   padding-top: 30px;
 }
